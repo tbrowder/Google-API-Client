@@ -1,0 +1,37 @@
+{
+  "name" : "Google::API::Client",
+  "author" : "github:tbrowder",
+  "version" : "0.0.1",
+  "api" : "1";
+  "perl" : "6.c",
+  "description" : "Provides client access to Google APIs via OAuth2",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>",
+    "Brian Duggan"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "HTTP::UserAgent",
+    "IO::Socket::SSL",
+    "JSON::Fast"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "Google::AP::Client" : "lib/Google/API/Client.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "git://github.com/tbrowder/Google-API-Client.git",
+  "source-type" : "git",
+  "tags" : [ 
+    "oauth2",
+    "google",
+    "api"
+  ],
+  "support" : {
+    "irc" : "irc://irc.freenode.org/#perl6",
+    "email" : "<tom.browder@gmail.com>",
+    "bugtracker" : "https://github.com/tbrowder/Google-API-Client/issues"
+  },
+  "test-depends" : [ ]
+
+}
